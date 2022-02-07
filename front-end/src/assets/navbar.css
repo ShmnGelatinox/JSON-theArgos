@@ -1,0 +1,36 @@
+@layer components {
+  img {
+    @apply w-5;
+    margin-bottom: 0.375;
+  }
+  
+  .list {
+    @apply list-none h-full flex items-center justify-around m-0 p-0; 
+    color: blue;
+    font-size: 10px;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+  }
+  
+  .icons-navbar {
+    @apply flex justify-center;
+  }
+
+  .iconActive {
+    @apply text-yellow-600;
+  }
+
+  .iconNavbar{
+    @apply text-secondaryBlue;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  nav {
+    @apply fixed w-full bottom-0 bg-gray-900;
+    border-top: 1px solid #BFBEBD;
+
+  }
+}
